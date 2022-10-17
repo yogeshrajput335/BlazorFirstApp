@@ -22,3 +22,8 @@ https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
 
 ```
 > dotnet new gitignore
+
+## How to Contribute
+
+* Please read and follow the steps in [CONTRIBUTING.md](CONTRIBUTING.md) file.
+* You may want to look out for issues labeled [good first issue] to find some initial tasks to tackle.
