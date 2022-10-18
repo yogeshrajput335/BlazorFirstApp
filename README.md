@@ -1,3 +1,5 @@
+# Blazor In VS CODE Documention
+LINK https://medium.com/p/656f68a3384c
 ### List of DOTNET Framewoek
 > dotnet --list-sdks
 ##### Ensure that a version that starts with 6 is listed. If none is listed or the command isn't found, install the most recent .NET 6.0 SDK.
