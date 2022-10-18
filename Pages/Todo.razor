@@ -1,5 +1,6 @@
 ﻿@page "/todo"
 
+<h1>@ApplicationName</h1>
 <h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
 
 <ul>
@@ -14,6 +15,8 @@
 <button @onclick="AddTodo">Add todo</button>
 
 @code {
+    [Parameter]
+    public string? ApplicationName { get; set; } = "Test";
     private List<TodoItem> todos = new();
     private string? newTodo;
     private void AddTodo()
